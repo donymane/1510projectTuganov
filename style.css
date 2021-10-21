@@ -1,0 +1,137 @@
+
+header {
+    text-align: justify;
+    height: 8em;
+    padding: 2em 5%;
+    background: #2c3e50;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    text-decoration: none;
+}
+ 
+header::after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+
+
+.main{
+    widht: 75%;
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    color: black;
+}
+
+.block{
+    width: 200px;
+    height: 205px;
+    background: url('../img/venom.jpg');
+    background-size: cover;
+    position: relative;
+    border-radius: 8px;
+    margin-left: 10px;
+}
+
+.block button{
+    width: 100%;
+    height: 42px;
+    background: #FA7E0C;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    font-height: 14px;
+    color: #FFFFFF;
+    bottom: 0;
+
+}
+
+.block:nth-child(1){
+    background: url('../img/duna.jpg');
+    background-size:100%;
+}
+
+.block:nth-child(2){
+    background: url('../img/godfather.jpg');
+    background-size:300px;
+}
+
+.block:nth-child(3){
+    background: url('../img/nachalo.jpg');
+    background-size:100%;
+}
+
+.block:nth-child(4){
+    background: url('../img/tenet.jpg');
+    background-size:100%;
+}
+
+.content{
+    widht: 100%;
+    height: 100%;
+    float: right;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.venom{
+    width: 342px;
+    height: 535px;
+    background: url('../img/venom.jpg');
+    background-size: cover;
+    margin-right: 10px;
+}
+
+.venom button{
+    width: 100%;
+    height: 42px;
+    background: #FA7E0C;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    font-height: 14px;
+    color: #FFFFFF;
+    bottom: 0;
+
+}
+
+.sidebar{ 
+        background-color: #FA7E0C; 
+        width: 180px; 
+        padding: 10px; 
+        float: right;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        text-decoration: none;
+        }
+
+
+.sidebar1 button{
+    background-color: black;
+    width: 100%;
+    height: 42px;
+    background: #FA7E0C;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    font-height: 14px;
+    color: #FFFFFF;
+    bottom: 0;
+    
+    
+
+}
+
+.footer{
+     background: #808080;
+    width: 100%;
+     max-width: 960px;
+    min-width: 460px;
+    color: #fff;
+    margin: auto;
+    padding: 15px;
+    box-sizing: border-box;
+}
